@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+.boxP{
+    display: flex;
+    flex-direction: column;
+
+/***************************HEADER*******************************/
+
+        .boxTop{
+            height: 540px;
+            background-image: url(assets/image-header.jpg);
+            background-position: center bottom;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            align-content: space-between;
+            flex-direction: column;
+            
+            .top-boxTop{
+                height: 20%;
+                width: 100%;
+                display: flex;
+            }
+
+            .logo{
+                background-image: url(assets/logo.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 80%;
+                height: 25px;
+                margin: 5%;
+            }
+
+            .nav{
+                background-image: url(assets/icon-hamburger.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                height: 25px;
+                width: 20%;
+                margin: 5% 0%;
+            }
+
+            .heading{
+                font-size: 25px;
+                letter-spacing: 5px;
+                text-align: center;
+                color: white;
+                font-family: fraunces;
+                margin: 5% 0%;
+            }
+
+            .arrow{
+                background-image: url(assets/icon-arrow-down.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                width: 100%;
+                height: 100px;
+            }
+        }
+
+/***************************SECTION1*****************************/
+
+        .boxPic1{
+            height: 310px;
+            background-image: url(assets/image-transform.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .boxText1{
+            height: 435px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .boxText1-title{
+                font-family: fraunces;
+                font-size: 35px;
+                margin: 0% 5%;
+                text-align: center;
+            }
+
+            .boxText1-text{
+                font-family: barlow;
+                font-size: 20px;
+                margin: 0% 5%;
+                text-align: center;
+                line-height: 140%;
+            }
+
+            .boxText1-learnmore{
+                font-family: fraunces, strong;
+                font-size: 20px;
+                margin: 0% 5%;
+                letter-spacing: 1px;
+                text-align: center;
+            }
+
+        }
+
+        .boxPic2{
+            height: 310px;
+            background-image: url(assets/image-stand-out.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .boxText2{
+            height: 435px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .boxText2-title{
+                font-family: fraunces;
+                font-size: 35px;
+                margin: 0% 5%;
+                text-align: center;
+            }
+
+            .boxText2-text{
+                font-family: barlow;
+                font-size: 20px;
+                margin: 0% 5%;
+                text-align: center;
+                line-height: 140%;
+            }
+
+            .boxText2-learnmore{
+                font-family: fraunces, strong;
+                font-size: 20px;
+                margin: 0% 5%;
+                letter-spacing: 1px;
+                text-align: center;
+            }
+
+        }
+
+/******************************SECTION2***************************/
+
+        .picText1{
+            height: 600px;
+            background-image: url(assets/image-graphic-design.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+
+            .picText1-title{
+                font-family: fraunces;
+                font-size: 35px;
+                margin: 5% 5% 0%;
+                text-align: center;
+            }
+
+            .picText1-text{
+                font-family: barlow;
+                font-size: 20px;
+                margin: 5% 5% 10%;
+                text-align: center;
+                line-height: 140%;
+            }
+
+        }
+        .picText2{
+            height: 600px;
+            background-image: url(assets/image-photography.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+
+            .picText2-title{
+                font-family: fraunces;
+                font-size: 35px;
+                margin: 5% 5% 0%;
+                text-align: center;
+            }
+
+            .picText2-text{
+                font-family: barlow;
+                font-size: 20px;
+                margin: 5% 5% 10%;
+                text-align: center;
+                line-height: 140%;
+            }
+
+        }
+
+/******************************SECTION3***************************/
+
+        .review{
+            height: 1260px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            
+        }
+
+/***************************FOOTER********************************/
+        
+        .gallery{
+            height: 375px;
+            display: flex;
+            flex-wrap: wrap;
+            .gallery-pic1{
+                width: 50%;
+                height: 50%;
+                background-image: url(assets/image-gallery-milkbottles.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .gallery-pic2{
+                width: 50%;
+                height: 50%;
+                background-image: url(assets/image-gallery-orange.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .gallery-pic3{
+                width: 50%;
+                height: 50%;
+                background-image: url(assets/image-gallery-cone.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .gallery-pic4{
+                width: 50%;
+                height: 50%;
+                background-image: url(assets/image-gallery-sugarcubes.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            } 
+            }
+        .boxBot{
+            height: 350px;
+            background-color: #90D4C6;
+            }
+}
