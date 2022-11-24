@@ -12,8 +12,174 @@ body {
   display: flex;
   flex-direction: column;
   /***************************HEADER*******************************/
+  /***************************SECTION1*****************************/
+  /******************************SECTION2***************************/
   /******************************SECTION3***************************/
   /***************************FOOTER********************************/
+}
+.boxP .boxTop {
+  height: 540px;
+  background-image: url(assets/image-header.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+}
+.boxP .boxTop .top-boxTop {
+  height: 20%;
+  width: 100%;
+  display: flex;
+}
+.boxP .boxTop .logo {
+  background-image: url(assets/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80%;
+  height: 25px;
+  margin: 5%;
+}
+.boxP .boxTop .nav {
+  background-image: url(assets/icon-hamburger.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 25px;
+  width: 20%;
+  margin: 5% 0%;
+}
+.boxP .boxTop .heading {
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: white;
+  font-family: fraunces;
+  margin: 5% 0%;
+}
+.boxP .boxTop .arrow {
+  background-image: url(assets/icon-arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100px;
+}
+.boxP .boxPic1 {
+  height: 310px;
+  background-image: url(assets/image-transform.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.boxP .boxText1 {
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.boxP .boxText1 .boxText1-title {
+  font-family: fraunces;
+  font-size: 35px;
+  margin: 0% 5%;
+  text-align: center;
+}
+.boxP .boxText1 .boxText1-text {
+  font-family: barlow;
+  font-size: 20px;
+  margin: 0% 5%;
+  text-align: center;
+  line-height: 140%;
+}
+.boxP .boxText1 .boxText1-learnmore {
+  font-family: fraunces, strong;
+  font-size: 20px;
+  margin: 0% 5%;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.boxP .boxPic2 {
+  height: 310px;
+  background-image: url(assets/image-stand-out.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.boxP .boxText2 {
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.boxP .boxText2 .boxText2-title {
+  font-family: fraunces;
+  font-size: 35px;
+  margin: 0% 5%;
+  text-align: center;
+}
+.boxP .boxText2 .boxText2-text {
+  font-family: barlow;
+  font-size: 20px;
+  margin: 0% 5%;
+  text-align: center;
+  line-height: 140%;
+}
+.boxP .boxText2 .boxText2-learnmore {
+  font-family: fraunces, strong;
+  font-size: 20px;
+  margin: 0% 5%;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.boxP .picText1 {
+  height: 600px;
+  background-image: url(assets/image-graphic-design.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.boxP .picText1 .picText1-title {
+  font-family: fraunces;
+  font-size: 35px;
+  margin: 5% 5% 0%;
+  text-align: center;
+}
+.boxP .picText1 .picText1-text {
+  font-family: barlow;
+  font-size: 20px;
+  margin: 5% 5% 10%;
+  text-align: center;
+  line-height: 140%;
+}
+.boxP .picText2 {
+  height: 600px;
+  background-image: url(assets/image-photography.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.boxP .picText2 .picText2-title {
+  font-family: fraunces;
+  font-size: 35px;
+  margin: 5% 5% 0%;
+  text-align: center;
+}
+.boxP .picText2 .picText2-text {
+  font-family: barlow;
+  font-size: 20px;
+  margin: 5% 5% 10%;
+  text-align: center;
+  line-height: 140%;
 }
 .boxP .review {
   height: 1260px;
